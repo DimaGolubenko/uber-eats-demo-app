@@ -11,9 +11,9 @@
     "react-scripts": "3.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --watchAll=false",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -30,5 +30,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "customize-cra": "^0.2.14",
+    "postcss-preset-env": "^6.6.0",
+    "react-app-rewired": "^2.1.3"
   }
 }
