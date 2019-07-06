@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import Header from "./Header/Header";
-import Footer from "./Footer/Footer";
+import Header from "./Header";
+import Footer from "./Footer";
 
-import Restaurants from "./Restaurants/Restaurants";
-import Restaurant from "./Restaurants/Restaurant/Restaurant";
+import Restaurants from "./Restaurants";
+import Restaurant from "./Restaurants/Restaurant";
 
 const App = () => {
   return (
